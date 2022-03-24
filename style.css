@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: normal;
+    color: ivory;
+    background: black;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+}
+
+.card {
+    background: teal;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    
+    padding: 25px;
+}
+
+p {
+    font-size: small;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    color: rgb(255, 229, 204);
+}
+
+.header {
+    color: white;
+    background: chocolate;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-left: 25px;
+}
+
+h1 {
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+h3 {
+    color: white;
+    padding-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(204, 255, 247);
+    font-size: medium;
+}
+
+a:hover {
+
+    color: lightblue;
+}
+
+a:visited {
+    color: rgb(43, 168, 226);
+}
+
+.btn {
+    font-family: inherit;
+    padding: 10px;
+    background: chocolate;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    margin-top: 5px;
+}
+
+.btn:hover {
+    background: burlywood;
+}
+
+.list {
+    padding-left: 40px;
+    color: rgb(204, 255, 247);
+}
+
+.list li {
+    margin-bottom: 5px;
+}
+
+.table {
+    width: 100%;
+    padding-left: 20px;
+}
+
+.table td {
+    padding-bottom: 5px;
+}
+
+.table td {
+    color: rgb(204, 255, 247);
+}
+
+.form h3 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+
+}
+
+.form-group textarea,
+.form-group input {
+    box-sizing: border-box;
+    width: 100%;
+    border: none;
+    font-family: inherit;
+    outline: none;
+    padding: 15px 0 10px;
+    color: black;
+    border-bottom: 1px solid rgb(204, 255, 247);
+    background: transparent;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form-group {
+    margin-right: 20px;
+    width: 50%;
+}
+
+.form-row .form-group :last-child {
+    margin-right: 0;
+}
+
+.form-group :last-child {
+    width: 95%;
+}
+
+.info {
+    display: flex;
+    margin-top: 10px;
+}
+
+.header-block {
+    display: block;
+}
+
+hr {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 653px) {
+    .info {
+        display: block;
+    }
+    .img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 500px) {
+    .form-row {
+        display: block;
+    }
+    .form-row .form-group {
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
